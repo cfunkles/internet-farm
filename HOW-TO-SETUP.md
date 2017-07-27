@@ -34,7 +34,7 @@ git clone https://github.com/peterfinlan/Sedna
 
 ### Copy site into codebase and deploy
 ```
-cp -R Sedna/* lsw17-api/app/static
+cp -R Sedna/* internet-farm/app/static
 cd internet-farm
 sh deploy.sh
 ```
