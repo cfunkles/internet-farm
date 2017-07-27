@@ -352,6 +352,43 @@
     e.src='//www.google-analytics.com/analytics.js';
     r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
     ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+</script>
+<script>
+        var mainAppVue = new Vue({
+            el: '#app',
+            data: {
+                animalOne: {
+                    img: 'something',
+                    description: 'something',
+                    name: 'fluffy',
+                    age: 10,
+                    
+                }
+            },
+            computed: {
+
+            },
+            methods: {
+
+            }
+        });
+        Vue.component('mater', {
+            template: `
+                <div>
+                    
+            `
+            ,
+            props : [],
+            data : function() {
+
+            },
+            computed: {
+
+            },
+            methods: {
+
+            }
+        });
     </script>
 </body>
 </html>
