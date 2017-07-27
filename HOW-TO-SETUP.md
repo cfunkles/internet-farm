@@ -1,5 +1,11 @@
 ## Hack the DOT Hackathon at CoSolve, Longmont CO 07-26-17
 
+### TL;DR
+```
+sh install-docker.sh
+
+```
+
 ### Docker Installation Linux
 ```
 sh install-docker.sh
