@@ -28,14 +28,14 @@ docker pull tiangolo/uwsgi-nginx-flask:flask-upload
 
 ### Get the Code
 ```
-git clone https://github.com/Archethought/lsw17-api
+git clone https://github.com/dixon1e/internet-farm
 git clone https://github.com/peterfinlan/Sedna
 ```
 
 ### Copy site into codebase and deploy
 ```
 cp -R Sedna/* lsw17-api/app/static
-cd lsw17-api
+cd internet-farm
 sh deploy.sh
 ```
 
